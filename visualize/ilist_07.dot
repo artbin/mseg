@@ -1,0 +1,13 @@
+digraph structs {
+  node [shape=Mrecord];
+  5 [label="<name> []int |{<5index0> 0|<5value0> 1}|{<5index1> 1|<5value1> 2}|{<5index2> 2|<5value2> 3}|{<5index3> 3|<5value3> 4} "];
+  4 [label="<name> Segment[int] |{<f0> Next | *segment.Segment[int](nil)} |<f1> Elems "];
+  4:f1 -> 5:name;
+  3 [label="<name> Segment[int] |<f0> Next|{<f1> Elems | {{<6index0> 0|<6value0> 5}|{<6index1> 1|<6value1> 6}}}  "];
+  3:f0 -> 4:name;
+  2 [label="<name> Segment[int] |<f0> Next|{<f1> Elems | {{<7index0> 0|<7value0> 7}}}  "];
+  2:f0 -> 3:name;
+  1 [label="<name> listStruct[int] |<f0> last|<f1> first|{<f2> len | 7} |{<f3> horizon | 0}  "];
+  1:f0 -> 2:name;
+  1:f1 -> 4:name;
+}

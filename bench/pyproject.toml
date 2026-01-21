@@ -1,0 +1,10 @@
+[project]
+name = "mlist-bench"
+version = "0.0.0"
+description = "Benchmark plotting utilities for mlist."
+requires-python = ">=3.9"
+dependencies = [
+  "pandas>=2.0",
+  "matplotlib>=3.7",
+]
+
