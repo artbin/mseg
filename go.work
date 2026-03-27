@@ -1,0 +1,10 @@
+go 1.25
+
+use (
+    ./marray
+    ./mlist
+    ./pfdeque
+    ./pflist
+    ./pfqueue
+    ./segment
+)
