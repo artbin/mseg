@@ -1,7 +1,7 @@
 package pfdeque
 
 import (
-	"github.com/artbin/mlist/segment"
+	"github.com/artbin/mseg/segment"
 )
 
 type PFDeque[E any] struct {

@@ -1,3 +1,3 @@
-module github.com/artbin/mlist/segment
+module github.com/artbin/mseg/segment
 
 go 1.25

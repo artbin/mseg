@@ -1,7 +1,7 @@
 package pflist
 
 import (
-	"github.com/artbin/mlist/segment"
+	"github.com/artbin/mseg/segment"
 )
 
 // PFList is a variant of MList that is purely functional (no in-place mutation) and fully persistent.

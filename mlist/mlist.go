@@ -10,7 +10,7 @@ package mlist
 import (
 	"fmt"
 
-	"github.com/artbin/mlist/segment"
+	"github.com/artbin/mseg/segment"
 )
 
 // MList implements a segmented, front-oriented list by chaining

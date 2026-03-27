@@ -7,8 +7,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/artbin/mlist/mlist"
-	"github.com/artbin/mlist/segment"
+	"github.com/artbin/mseg/mlist"
+	"github.com/artbin/mseg/segment"
 	"github.com/bradleyjkemp/memviz"
 )
 

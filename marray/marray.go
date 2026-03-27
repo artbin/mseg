@@ -1,7 +1,7 @@
 package marray
 
 import (
-	"github.com/artbin/mlist/mlist"
+	"github.com/artbin/mseg/mlist"
 )
 
 // MArray is a mutable, dynamic-array-style facade over MList.

@@ -1,4 +1,3 @@
-module github.com/artbin/mlist/cmd/benchrun
+module github.com/artbin/mseg/cmd/benchrun
 
 go 1.25
-

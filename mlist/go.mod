@@ -1,9 +1,9 @@
-module github.com/artbin/mlist/mlist
+module github.com/artbin/mseg/mlist
 
 go 1.25
 
 require (
-	github.com/artbin/mlist/segment v0.0.0-00010101000000-000000000000
+	github.com/artbin/mseg/segment v0.0.0-00010101000000-000000000000
 	github.com/stretchr/testify v1.11.1
 )
 
@@ -13,4 +13,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/artbin/mlist/segment => ../segment
+replace github.com/artbin/mseg/segment => ../segment

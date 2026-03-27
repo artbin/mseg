@@ -1,7 +1,7 @@
 package pfqueue
 
 import (
-	"github.com/artbin/mlist/segment"
+	"github.com/artbin/mseg/segment"
 )
 
 type PFQueue[E any] struct {
