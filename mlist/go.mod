@@ -3,7 +3,7 @@ module github.com/artbin/mseg/mlist
 go 1.25
 
 require (
-	github.com/artbin/mseg/segment v0.0.1
+	github.com/artbin/mseg/segment v0.0.2
 	github.com/stretchr/testify v1.11.1
 )
 
@@ -14,3 +14,5 @@ require (
 )
 
 replace github.com/artbin/mseg/segment => ../segment
+
+retract v0.0.1 // published tag does not match the checksum database
